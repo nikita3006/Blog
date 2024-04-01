@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+Hi, my name is Nikita Negi, and this is my blog project website idea for people like me who want to share but hesitate.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DailyBlog
 
-Currently, two official plugins are available:
+Welcome to DailyBlog, your go-to platform for sharing daily updates and insights. Tired of seeing repetitive LinkedIn posts? DailyBlog offers a fresh approach to sharing your daily experiences and thoughts while also providing a platform for others to do the same.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
 
-## Expanding the ESLint configuration
+The purpose of DailyBlog is to provide a space where individuals, like me , can share their daily updates, insights, and thoughts in a more meaningful and engaging manner than traditional social media platforms. By creating a blog website, I aim to encourage authentic and diverse content creation while fostering a sense of community among users.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Daily Updates**: Share your daily experiences, thoughts, and insights with the world.
+- **Authentication**: Securely log in and manage your blog posts.
+- **View Others' Updates**: Explore and engage with updates from other users.
+- **Tech Stack**: Built using React, TypeScript, Firebase, Routing, Tailwind CSS, Git, and GitHub.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
