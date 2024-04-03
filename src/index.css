@@ -110,20 +110,25 @@ body::-webkit-scrollbar-thumb{
     
      
 }
-@media only screen and (min-width :720px){
-    .navbar{
-        top:0;
-        width:5rem;
-        height:100vh;
-        
-     }
-     .navbar :hover{
-        width:16rem;
-     }
-    
-     .navbar :hover .link-text{
-      display:inline;
-      transition: transform 0.3s;
-     }
+@media only screen and (min-width :425px){
+   .navbar{
+    top:0;
+    width:5rem;
+    height:100vh;
+   }
+   .navbar:hover{
+   
+    width:15rem;
+   
+   }
+   .navbar:hover .link-text{
+    display:inline;
+    transition: transform 0.3s;
+   
+   }
+    .navbar-nav{
+       
+        width:4rem;
+    }
     
 }
