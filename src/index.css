@@ -52,10 +52,6 @@ body::-webkit-scrollbar-thumb{
     width:100%;
     
 }
-.nav-item:last-child{
-   margin-top:15rem;
-   
-}
 
 .nav-link{
     display:flex;
@@ -70,65 +66,29 @@ body::-webkit-scrollbar-thumb{
     filter:grayscale(0%) opacity(1 );
    
 }
+.link-text{
+    font-size: 12px;
+}
 .nav-link .icon{
     min-width:2rem;
     margin:0 1.5rem;
 }
 .navbar:hover{
-    width:16rem;
+    width:10rem;
 }
 .navbar:hover .link-text{
     display:block;
-}
-@media only screen and (max-width :420px){
-    .navbar{
-        bottom:0;
-        width:100vw;
-        height:5rem;
-        
-     }
-     .logo{
-        display:none;
-    }
-    .navbar-nav{
-        flex-direction:row;        
-        width:5rem;
-    }
-    .nav-item:last-child{
-        margin-top:0rem; 
-     }
-      .link-text{
-        display:none;
-    }
-}
-@media only screen and (max-width :320px){
- 
-    .navbar-nav{
-        flex-direction:row;        
-        width:4rem;
-    }
     
-     
 }
-@media only screen and (min-width :425px){
-   .navbar{
-    top:0;
-    width:5rem;
-    height:100vh;
-   }
-   .navbar:hover{
-   
-    width:15rem;
-   
-   }
-   .navbar:hover .link-text{
-    display:inline;
+.mode{
+    margin-top:5rem;
+    filter:contrast(200%) opacity(0.7 );
     transition: transform 0.3s;
-   
-   }
-    .navbar-nav{
-       
-        width:4rem;
-    }
-    
+    margin-left:2rem
+  
+}
+@media only screen and (max-width: 600px) {
+    .mode{
+        margin-top:16rem; 
+     }  
 }
