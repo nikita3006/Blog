@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin:0;
     padding:0;
@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb{
 
 .navbar{
     width:5rem;
-    height:100vh;
+   
     position:fixed;
     transition: width 200ms ease;
 }
@@ -86,6 +86,12 @@ body::-webkit-scrollbar-thumb{
     transition: transform 0.3s;
     margin-left:2rem
   
+}
+
+.home{
+    font-family: "Pacifico", cursive;
+    font-weight: 900;
+    font-style: normal;
 }
 @media only screen and (max-width: 600px) {
     .mode{
