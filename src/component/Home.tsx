@@ -3,12 +3,13 @@ import as from '../assets/videos/2.mp4';
 
 const Home: React.FC = () => {
   return (
-    <div className='w-[100vw] h-screen relative home'>
+    <div className=' h-max relative home'>
       <video  autoPlay muted loop >
         <source src={as} type="video/mp4"/>
        
       </video>
-      <h1 className='absolute  z-1 lg:mt-[-25rem] lg:text-[150px] lg:ml-[400px]  mt-[-8rem] ml-[140px] text-4xl '>bLOG</h1>
+      <h1 className='absolute  z-1 lg:mt-[-25rem] lg:text-[150px]
+       lg:ml-[400px]  mt-[-8rem] ml-[140px] text-4xl '>bLOG</h1>
     </div>
   );
 };
